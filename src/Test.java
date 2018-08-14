@@ -6,7 +6,7 @@ public class Test {
     public static void main(String[] args) {
 
         TreeSet<Integer> numbers = new TreeSet<>();
-        Math.random(numbers,50);
+        Math.random(numbers, 50);
 
         System.out.println("Najmniejsza" + " " + numbers.first());
         System.out.println("Najwieksza" + " " + numbers.last());
